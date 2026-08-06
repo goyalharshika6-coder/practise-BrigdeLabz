@@ -1,0 +1,98 @@
+ASSISGNMENT-1
+Ans1
+Frontend-
+Develops the user interface of a website.	
+Uses HTML, CSS, and JavaScript.
+Example: Amazon homepage.
+Backend-
+Handles server-side logic and databases.
+Uses Java, PHP, Python, Node.js, etc.
+Example: Login and payment processing.
+FullStack-
+Works on both frontend and backend.
+Uses both frontend and backend technologies.
+Example: Complete e-commerce website.
+Ans2-
+Client (Browser)
+       |
+ HTTP Request
+       |
+       V
+Web Server
+       |
+HTTP Response
+       |
+       V
+Client (Displays Web Page)
+Ans3-
+The user enters a website URL.
+The browser sends an HTTP request to the web server.
+The server processes the request.
+The server returns HTML, CSS, and JavaScript files.
+The browser renders and displays the web page.
+Ans4-
+Tool	              Purpose
+Visual Studio Code	 Code editor
+Google Chrome	     Test web pages
+Git	                 Version control
+GitHub	             Store and manage projects
+Live Server	         Live preview of web pages
+Ans5-
+A web server stores website files and sends them to users through HTTP or HTTPS.
+Examples:
+Apache
+Nginx
+Microsoft IIS
+Ans6-
+Frontend Developer
+Designs the user interface.
+Develops web pages using HTML, CSS, and JavaScript.
+Backend Developer
+Develops server-side logic.
+Connects applications with databases.
+Database Administrator (DBA)
+Manages databases.
+Maintains data security and backups.
+Ans7-
+Install Visual Studio Code.
+Install the Live Server extension.
+Create the following files:
+index.html
+style.css
+script.js
+Open index.html using Live Server.
+Ans8-
+ Static Website  Dynamic Website             
+ Fixed content   Content changes dynamically 
+ No database     Uses a database             
+ Faster          Interactive and data-driven 
+Ans9-
+ Browser          Rendering Engine 
+ Google Chrome    Blink            
+ Microsoft Edge   Blink            
+ Mozilla Firefox  Gecko            
+ Safari           WebKit           
+ Opera            Blink          
+Rendering Engine: A rendering engine converts HTML, CSS, and JavaScript into a web page displayed in the browser.  
+Ans10-
+Client (Browser)
+      |
+      | HTTP Request
+      v
+Web Server
+      |
+      | Database Request
+      v
+Database
+      ^
+      | Data
+      |
+Web Server
+      |
+      | API Response
+      v
+APIs
+      |
+      | HTTP Response
+      v
+Client (Browser)
