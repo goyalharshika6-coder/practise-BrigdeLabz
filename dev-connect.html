@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f7;
+}
+
+
+/* Complete Page */
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.navbar {
+    height: 65px;
+    background-color: #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+}
+
+
+/* Logo */
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Navbar Links */
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    color: #7ddbd5;
+}
+
+
+/* Main Area */
+
+.main {
+    width: 100%;
+    min-height: calc(100vh - 65px);
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    padding: 40px;
+}
+
+
+/* Posts */
+
+.posts {
+    width: 500px;
+}
+
+
+/* Individual Post */
+
+.post {
+    background-color: white;
+
+    padding: 20px;
+
+    margin-bottom: 25px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Post Header */
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.post-header b {
+    font-size: 14px;
+}
+
+.post-header span {
+    color: #888;
+    font-size: 12px;
+}
+
+
+/* Post Text */
+
+.post p {
+    color: #444;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* New Post Button */
+
+.new-post {
+    position: fixed;
+
+    right: 35px;
+    bottom: 30px;
+
+    background-color: #5555d9;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px 20px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+.new-post:hover {
+    background-color: #4141b8;
+}
+    </style>
+
+    <div class="page">
+
+        <!-- Navbar -->
+        <div class="navbar">
+
+            <div class="logo">
+                DevConnect
+            </div>
+
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Profile</a>
+            </div>
+
+        </div>
+
+
+        <!-- Main Content -->
+        <div class="main">
+
+            <div class="posts">
+
+                <!-- Post 1 -->
+                <div class="post">
+                    <div class="post-header">
+                        <b>Alex Brown</b>
+                        <span>@alex.brown</span>
+                    </div>
+
+                    <p>
+                        Are anyone working on this project?
+                        I am working on the login system. 
+                    </p>
+                </div>
+
+
+                <!-- Post 2 -->
+                <div class="post">
+                    <div class="post-header">
+                        <b>Dev Community</b>
+                        <span>@devcommunity</span>
+                    </div>
+
+                    <p>
+                        Hey everyone! We are working on the
+                        dashboard. Let's collaborate together.
+                    </p>
+                </div>
+
+
+                <!-- Post 3 -->
+                <div class="post">
+                    <div class="post-header">
+                        <b>Frontend Daily</b>
+                        <span>@frontend.daily</span>
+                    </div>
+
+                    <p>
+                        Remember to practice coding every day.
+                        Consistency is important for becoming
+                        a better developer.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- New Post Button -->
+            <button class="new-post">
+                New Post
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
